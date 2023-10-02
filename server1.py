@@ -7,6 +7,7 @@ from time import sleep
 from threading import Thread
 import ast
 # Initialize socket
+exit()
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 host = '0.0.0.0'
