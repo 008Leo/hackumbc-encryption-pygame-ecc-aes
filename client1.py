@@ -18,6 +18,7 @@ if os.name == 'nt':
     init()
 import bcrypt
 from threading import Thread
+exit()
 key = ""
 if not os.path.exists("hash.hash") and os.path.exists('key.key'):
     dk = getpass.getpass('Create password to encrypt key.key:')
